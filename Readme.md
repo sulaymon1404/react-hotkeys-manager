@@ -46,4 +46,4 @@ Pull requests are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md).
 
 ## 📜 License
-MIT © [Sulaymon Makhsumov](https://github.com/sulaymon1404)
+MIT © [Sulaymon Makhsumov](https://github.com/sulaymon1404/react-hotkeys-manager?tab=MIT-1-ov-file)
