@@ -1,0 +1,45 @@
+// {
+//   "compilerOptions": {
+//     "target": "es5",                     // Целевая версия JavaScript
+//     "lib": ["dom", "DOM.Iterable","ESNext"],
+//     "allowJs": true,
+//     "skipDefaultLibCheck": true,
+//     "allowSyntheticDefaultImports": true,
+//                // Библиотеки, которые TypeScript будет использовать
+//     "jsx": "react-jsx",                      // Поддержка JSX
+//     "moduleResolution": "node",          // Модульная система
+//     "strict": true,                      // Включение строгого режима
+//     "esModuleInterop": true,             // Совместимость с ES модулями
+//     "skipLibCheck": true,                // Пропуск проверки библиотек
+//     "forceConsistentCasingInFileNames": true,
+//     "module": "esnext",                  // Система модулей
+//     "noFallthroughCasesInSwitch": true,
+//     "outDir": "./dist",                  // Папка для выходных файлов
+//     "rootDir": "./src",                  // Папка с исходными TypeScript файлами
+//   },
+//   "include": [
+//     "src/**/*"                           // Включение всех файлов в папке src
+//   ]
+// }
+
+
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
