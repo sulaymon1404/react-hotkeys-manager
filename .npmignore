@@ -1,7 +1,7 @@
 # Ignore node_modules and build output
 node_modules/
-dist/
 
+src/
 # Ignore configuration files
 *.config.js
 *.config.json
