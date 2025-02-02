@@ -5,6 +5,7 @@ src/
 # Ignore configuration files
 *.config.js
 *.config.json
+tsconfig.json
 
 # Ignore test files
 __tests__/
@@ -15,7 +16,9 @@ __tests__/
 
 # Ignore documentation and metadata
 *.md
+
 LICENSE
+
 .gitignore
 .npmignore
 

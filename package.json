@@ -1,6 +1,6 @@
 {
   "name": "react-hotkeys-manager",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight React component to manage keyboard shortcuts effortlessly.",
   "author": "Sulaymon Makhsumov sulaymonmakhsumow@gmail.com",
   "keywords": ["react", "hotkeys", "keyboard", "shortcuts", "typescript"],
