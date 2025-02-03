@@ -18,6 +18,8 @@ npm install react-hotkeys-manager
 ```
 
 ## 🛠️ Usage
+
+### Using the Component
 ```jsx
 import { HotkeyManager } from 'react-hotkeys-manager';
 
@@ -31,6 +33,29 @@ const App = () => {
 
   return <HotkeyManager hotkeys={hotkeys} />;
 };
+```
+
+### Using the Hook
+```jsx
+import { useHotkeys } from 'react-hotkeys-manager';
+
+const App = () => {
+  const hotkeys = [
+    {
+      keys: ['ctrl', 's'],
+      action: () => alert('Saved!'),
+    },
+  ];
+
+  useHotkeys(hotkeys);
+
+  return (
+    <div>
+      <h1>Press Ctrl+S to see the alert</h1>
+    </div>
+  );
+};
+
 ```
 
 ## 📖 API Reference
