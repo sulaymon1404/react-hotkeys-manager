@@ -1,15 +1,8 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
+import type { Hotkey } from '../types';
 
-interface Hotkey {
-  keys: string[]; // Сочетания клавиш, например, ['ctrl+s']
-  action: () => void; // Действие при нажатии
-}
 
-interface HotkeyManagerProps {
-  hotkeys: Hotkey[]; // Список горячих клавиш
-}
-
-export const HotkeyManager: React.FC<HotkeyManagerProps> = ({ hotkeys }) => {
+export const useHotkeys = (hotkeys:Hotkey[]) => {
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       hotkeys.forEach(({ keys, action }) => {
@@ -37,5 +30,5 @@ export const HotkeyManager: React.FC<HotkeyManagerProps> = ({ hotkeys }) => {
     };
   }, [hotkeys]);
 
-  return null; // Компонент не рендерит ничего
+  return null;
 };
